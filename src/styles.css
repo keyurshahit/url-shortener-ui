@@ -1,0 +1,105 @@
+.clearable-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px; /* Set a fixed width for the input */
+  }
+  
+  .clearable-input input {
+    flex: 1;
+    padding: 8px;
+    padding-right: 24px; /* Ensure space for the clear button */
+    font-size: 16px;
+    width: 100%; /* Make sure the input takes full width of the container */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .clearable-input input:hover {
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(136, 136, 136, 0.5);
+  }
+  
+  .clearable-input button {
+    position: absolute;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #999;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 8px 12px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .create-button {
+    background-color: #81c784; /* Lighter shade of green */
+  }
+  
+  .create-button:hover {
+    background-color: #66bb6a; /* Darker shade of green on hover */
+    box-shadow: 0 0 5px rgba(102, 187, 106, 0.5);
+  }
+  
+  .delete-button {
+    background-color: #e57373; /* Lighter shade of red */
+  }
+  
+  .delete-button:hover {
+    background-color: #ef5350; /* Darker shade of red on hover */
+    box-shadow: 0 0 5px rgba(239, 83, 80, 0.5);
+  }
+  
+  .get-button {
+    background-color: #64b5f6; /* Lighter shade of blue */
+  }
+  
+  .get-button:hover {
+    background-color: #42a5f5; /* Darker shade of blue on hover */
+    box-shadow: 0 0 5px rgba(66, 165, 245, 0.5);
+  }
+  
+  .stats-button {
+    background-color: #ffb74d; /* Lighter shade of orange */
+  }
+  
+  .stats-button:hover {
+    background-color: #ffa726; /* Darker shade of orange on hover */
+    box-shadow: 0 0 5px rgba(255, 167, 38, 0.5);
+  }
+  
+  .response-list {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .response-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .clear-button {
+    background: none;
+    border: none;
+    color: #ff0000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
